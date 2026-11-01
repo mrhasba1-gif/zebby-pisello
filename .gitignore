@@ -1,6 +1,12 @@
-# Ignore files that cannot be read/added from this worktree
+# Git internals
+.git
+
+# Local platform-only artifacts
 .cloud-attachments
-.freebuff
-.tmp08
+
+# Project-local config/binding file kept out of source control
+.freebuff/project-id
+
+# Cannot be added from this worktree
 gates/06-path/fixtures/organ/etc/pki/tls/cert.pem
 gates/06-path/fixtures/organ/usr/lib64/librawhide.so
