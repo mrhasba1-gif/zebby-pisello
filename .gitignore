@@ -1,0 +1,6 @@
+# Ignore files that cannot be read/added from this worktree
+.cloud-attachments
+.freebuff
+.tmp08
+gates/06-path/fixtures/organ/etc/pki/tls/cert.pem
+gates/06-path/fixtures/organ/usr/lib64/librawhide.so
